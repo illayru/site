@@ -1,0 +1,59 @@
+
+ul {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 40%;
+	top: 20%;
+}
+ ul li {
+	list-style-type: none;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	border-radius: 50%;
+	box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+	transform-origin: bottom;
+	animation: animate 7s linear infinite;
+}
+@keyframes animate {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(359deg);
+	}
+}
+ul li:nth-child(1) {
+	animation-delay: 0;
+	background: rgba(255, 159, 243, .5);
+}
+ul li:nth-child(2) {
+	animation-delay: 1s;
+	background: rgba(254, 202, 87, .5);
+}
+ul li:nth-child(3) {
+	animation-delay: 2s;
+	background: rgba(255, 107, 107, .5);
+}
+ul li:nth-child(4) {
+	animation-delay: 3s;
+	background: rgba(72, 219, 251, .5);
+}
+ul li:nth-child(5) {
+	animation-delay: 4s;
+	background: rgba(29, 209, 161, .5);
+}
+ul li:nth-child(6) {
+	animation-delay: 5s;
+	background: rgba(0, 210, 211, .5);
+}
+ul li:nth-child(7) {
+	animation-delay: 6s;
+	background: rgba(95, 39, 205, .5);
+}
+ul li:nth-child(8) {
+	animation-delay: 7s;
+	background: rgba(87, 101, 116, .5);
+}
